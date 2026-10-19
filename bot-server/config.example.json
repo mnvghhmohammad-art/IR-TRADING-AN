@@ -1,0 +1,14 @@
+{
+  "apiKey": "PUT_YOUR_NOBITEX_API_KEY_HERE",
+  "mode": "paper",
+  "pairs": ["BTC/TMN", "ETH/TMN", "USDT/TMN"],
+  "riskProfile": "balanced",
+  "stopLossPct": 2,
+  "takeProfitPct": 4,
+  "maxOpenPositions": 3,
+  "tradeAmountPct": 20,
+  "tickIntervalSec": 30,
+  "profitSharePct": 40,
+  "minProfitToWithdraw": 500000,
+  "dailyLossLimitPct": 8
+}

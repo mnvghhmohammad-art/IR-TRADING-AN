@@ -1,0 +1,12 @@
+{
+  "name": "ir-trading-an-server-bot",
+  "version": "1.0.0",
+  "description": "IR.TRADIng.AN 24/7 server bot (Nobitex) — zero dependencies, Node.js 18+",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

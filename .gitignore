@@ -1,0 +1,16 @@
+node_modules/
+.expo/
+dist/
+web-build/
+android/
+ios/
+*.log
+.DS_Store
+*.apk
+*.jks
+*.keystore
+!debug.keystore
+.expo-shared/
+expo-env.d.ts
+bot-server/state/
+bot-server/config.json

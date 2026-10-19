@@ -1,0 +1,52 @@
+{
+  "expo": {
+    "name": "IR.TRADIng.AN",
+    "slug": "ir-trading-an",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "backgroundColor": "#0A0A0C",
+    "splash": {
+      "image": "./assets/splash-bg.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#0A0A0C"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "ir.trading.an"
+    },
+    "android": {
+      "package": "ir.trading.an",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundImage": "./assets/adaptive-bg.png"
+      },
+      "permissions": [
+        "android.permission.POST_NOTIFICATIONS",
+        "android.permission.VIBRATE",
+        "android.permission.INTERNET"
+      ],
+      "allowBackup": false
+    },
+    "plugins": [
+      "expo-secure-store",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/splash-icon.png",
+          "imageWidth": 180,
+          "resizeMode": "contain",
+          "backgroundColor": "#0A0A0C"
+        }
+      ],
+      [
+        "expo-notifications",
+        {
+          "color": "#E8B93E"
+        }
+      ]
+    ]
+  }
+}
